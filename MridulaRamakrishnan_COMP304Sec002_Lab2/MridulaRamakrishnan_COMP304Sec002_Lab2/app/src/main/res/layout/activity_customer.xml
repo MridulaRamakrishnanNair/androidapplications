@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CustomerActivity">
+
+    <TextView
+        android:id="@+id/nametextView"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_weight="1"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/cardnumbertextView"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_weight="1"
+        android:text="Enter credit/debit card number" />
+
+    <EditText
+        android:id="@+id/editTextcardnumber"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/expirydate"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_weight="1"
+        android:text="Expiry Date" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/addresstextView"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_weight="1"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/postalcodetextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Postal code" />
+
+    <EditText
+        android:id="@+id/editTextpostalcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/emailtextView"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_weight="1"
+        android:text="Enter your email address" />
+
+    <EditText
+        android:id="@+id/editTextemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/mobilenumbertextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enter Mobile Number" />
+
+    <EditText
+        android:id="@+id/editTextMobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinnerSports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:entries="@array/sports"/>
+
+    <Spinner
+        android:id="@+id/spinnerDrinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:entries="@array/drinks"/>
+
+    <Spinner
+        android:id="@+id/spinnerFood"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_weight="1"
+        android:entries="@array/food" />
+
+    <Button
+        android:id="@+id/btnContinuetoendpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="OnclickContinuetoendBtn"
+        android:text="Continue" />
+
+</LinearLayout>

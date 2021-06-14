@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pizzaSize" >
+        <item>Choose your pizza size</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra-Large</item>
+    </string-array>
+
+
+    <string-array name="sports">
+        <item>Choose your favourite sport</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Volleyball</item>
+        <item>Basketball</item>
+        <item>Hockey</item></string-array>
+
+    <string-array name="drinks">
+        <item>Choose your favourite drink</item>
+        <item>Pepsi</item>
+        <item>Sprite</item>
+        <item>7up</item>
+        <item>Rootbeer</item>
+        <item>Frooti</item></string-array>
+
+
+    <string-array name="food">
+        <item>Choose your favourite food</item>
+        <item>Noodles</item>
+        <item>Biriyani</item>
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>French Fries</item>
+    </string-array>
+</resources>

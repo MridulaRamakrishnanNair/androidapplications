@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/canadianpizza"
+        android:icon="@drawable/canadianpizza"
+        android:title="@string/canadianpizza" />
+    <item
+        android:id="@+id/chickenceaser"
+        android:icon="@drawable/chickenceaser"
+        android:title="@string/chickenceaser" />
+    <item
+        android:id="@+id/hawaiianpizza"
+        android:icon="@drawable/hawaiianpizza"
+        android:title="@string/hawaiianpizza" />
+    <item
+        android:id="@+id/smokeymaplebacon"
+        android:icon="@drawable/smokeymaplebacon"
+        android:title="@string/smokeymaplebacon" />
+    <item
+        android:id="@+id/veggielovers"
+        android:icon="@drawable/veggielovers"
+        android:title="@string/Veggielovers" />
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HawaiianpizzaActivity">
+
+
+    <ImageView
+        android:id="@+id/hawaiianpizzaImg"
+        android:layout_width="wrap_content"
+        android:layout_height="347dp"
+        app:srcCompat="@drawable/hawaiianpizza" />
+
+    <TextView
+        android:id="@+id/ingredientsHawaiiantext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hawaiianpizza"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/ingredientsHawaiianpizza"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="@string/hawaiianPizzaIngredients"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkboxHawaiianpizza"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:onClick="onHawaiianpizzaClick"
+        android:text="Add To Cart"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/hawaiianInfo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Select from menu to choose another pizza"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnProceedHawaiian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="proceedbutton"
+        android:text="Proceed" />
+
+
+</LinearLayout>

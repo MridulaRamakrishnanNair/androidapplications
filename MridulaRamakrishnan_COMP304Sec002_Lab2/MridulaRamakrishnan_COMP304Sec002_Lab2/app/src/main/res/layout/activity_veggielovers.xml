@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VeggieloversActivity">
+
+
+    <ImageView
+        android:id="@+id/veggieloversImg"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        app:srcCompat="@drawable/veggielovers" />
+
+    <TextView
+        android:id="@+id/ingredientsVeggieloverstext"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic"
+        android:text="@string/Veggielovers" />
+
+    <TextView
+        android:id="@+id/ingredientsVeggieloverspizza"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic"
+        android:text="@string/veggieloversPizzaIngredients" />
+
+    <CheckBox
+        android:id="@+id/checkboxVeggieloverspizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onVeggieloverspizzaClick"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic"
+        android:text="Add To Cart"
+        />
+
+    <TextView
+        android:id="@+id/veggieloversInfo"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Select from menu to choose another pizza "
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnProceedVeggielovers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="proceedbutton"
+        android:text="Proceed" />
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SmokeymaplebaconActivity">
+
+
+    <ImageView
+        android:id="@+id/smokeymapleImg"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/smokeymaplebacon" />
+
+    <TextView
+        android:id="@+id/ingredientsSmokeymapletext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic"
+        android:text="@string/smokeymaplebacon" />
+
+    <TextView
+        android:id="@+id/ingredientsSmokeymaplepizza"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:text="@string/smokeymaplebaconPizzaIngredients"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkboxSmokeymaplepizza"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_weight="1"
+        android:onClick="onSmokeymaplepizzaClick"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic"
+        android:text="Add To Cart" />
+
+    <TextView
+        android:id="@+id/smokeymapleInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Select from menu to choose another pizza"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnProceedSmokey"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_weight="1"
+        android:onClick="proceedbutton"
+        android:text="Proceed" />
+
+
+</LinearLayout>

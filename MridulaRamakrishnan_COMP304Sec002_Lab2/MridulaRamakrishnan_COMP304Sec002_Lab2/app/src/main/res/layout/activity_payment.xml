@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <RadioGroup
+        android:id="@+id/paymentRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/rbtnCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash on Delivery" />
+
+        <RadioButton
+            android:id="@+id/rbtnCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credit Card Payment" />
+
+        <RadioButton
+            android:id="@+id/rbtnDebit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Debit Card Payment" />
+
+        <Button
+            android:id="@+id/btnCustomerinfopage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="continuetoCustomerinfo"
+            android:text="Proceed to customer information page" />
+    </RadioGroup>
+</LinearLayout>

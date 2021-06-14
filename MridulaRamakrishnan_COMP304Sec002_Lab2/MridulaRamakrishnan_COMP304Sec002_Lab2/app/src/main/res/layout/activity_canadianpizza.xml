@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CanadianpizzaActivity">
+
+    <ImageView
+        android:id="@+id/canadianpizzaimg"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/canadianpizza" />
+
+    <TextView
+        android:id="@+id/ingredientsCanadiantext"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_weight="1"
+        android:text="@string/canadianpizza"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/ingredientsCanadianpizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/canadianPizzaIngredients"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCanadianpizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onCanadianpizzaClick"
+        android:text="Add To Cart"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/canadianInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold|italic"
+        android:textColor="@color/pink"
+        android:text="Select from menu to choose another pizza" />
+
+    <Button
+        android:id="@+id/btnProceedCanadian"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:insetLeft="40dp"
+        android:insetTop="40dp"
+        android:insetRight="40dp"
+        android:insetBottom="40dp"
+        android:onClick="proceedbutton"
+        android:text="Proceed" />
+</LinearLayout>

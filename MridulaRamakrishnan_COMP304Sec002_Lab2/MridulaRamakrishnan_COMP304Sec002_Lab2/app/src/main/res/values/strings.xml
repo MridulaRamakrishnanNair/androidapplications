@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MridulaRamakrishnan_COMP304Sec002_Lab2</string>
+
+
+    <string name="pizzaSelectionText">Choose your pizza!!</string>
+
+    <string name="canadianpizza">Canadian Pizza</string>
+    <string name="chickenceaser">Chicken Ceaser</string>
+    <string name="hawaiianpizza">Hawaiian Pizza</string>
+    <string name="smokeymaplebacon">Smokey Maple Bacon</string>
+    <string name="Veggielovers">Veggie Lovers</string>
+
+
+    <string name="canadianPizzaIngredients">Bacon Crumble, Pepperoni, Sliced Mushrooms, Mozzarella</string>
+    <string name="chickenceaserIngredients">Pineapple,Cheese,Ham,Bacon,Green Olives</string>
+    <string name="hawaiianPizzaIngredients">Jalapeno, Tomato,Onion,grilled chicken,Cheddar cheese</string>
+    <string name="smokeymaplebaconPizzaIngredients">Bacon,Pizza Sauce,garlic,Black Olives</string>
+    <string name="veggieloversPizzaIngredients">Broccoli,Mushrooms,Green Olives, Sweet corn, Banana peppers</string>
+</resources>
